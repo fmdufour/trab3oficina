@@ -247,11 +247,6 @@ qEnqueue(&queue, &c);
 					AnalisaPosicao(predio, &queue, cd.z-1, cd.y, cd.x, cd.b, distAtual);
 				}			
 			}									
-			printf("teeeeste\n");	
-			printf("teeeeste\n");
-			printf("teeeeste\n");
-			printf("teeeeste\n");
-			printf("teeeeste\n");
 	}	
 	printf("%d\n", predio[final.z][final.y][final.x][0].dist);	
 return 0;
